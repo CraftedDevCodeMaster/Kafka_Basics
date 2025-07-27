@@ -1,0 +1,17 @@
+spring:
+  kafka:
+    producer:
+    
+      # Kafka broker address (host:port)
+      bootstrap-servers: localhost:9092
+      
+      # Serializer class to convert the key to a byte stream
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      
+      # Serializer class to convert the value to a byte stream
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      
+      
+# Note : FYI
+# Hit this URL to send a message to Kafka via the Spring Boot producer API
+# Example: http://localhost:8080/kafka/api/produceMsg?message=Hi%20Praveen
