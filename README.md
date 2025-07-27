@@ -1,10 +1,4 @@
-Here is your complete Kafka setup and Spring Boot API usage guide bundled into **one clean `README.md` file**. You can copy the content below and save it as `README.md` in your project folder.
 
----
-
-### ✅ Full `README.md` — All in One File
-
-```markdown
 # 🧰 Kafka 3.9.1 Setup & Spring Boot Kafka API (Windows)
 
 ## ✅ Prerequisites
