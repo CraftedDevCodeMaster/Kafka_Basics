@@ -14,4 +14,8 @@ spring:
       
 # Note : FYI
 # Hit this URL to send a message to Kafka via the Spring Boot producer API
-# Example: http://localhost:8080/kafka/api/produceMsg?message=Hi%20Praveen
+# Example: http://localhost:8080/kafka/api/produceMsg?message=Hi%20Praveen   
+      
+#Commands to start Zookeeper and Kafka :
+# .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+#.\bin\windows\kafka-server-start.bat .\config\server.properties 
